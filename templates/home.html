@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wordcount</title>
+</head>
+<body>
+    <h2><i>WORDCOUNT</i></h2>
+    <form action="{% url 'count' %}">
+        <textarea name="textarea" cols=70 rows=10></textarea></br>
+        <input type="submit" value="count">
+
+    </form>
+    <!-- {{name}} -->
+    <a href="{% url 'about' %}">about</a>
+</body>
+</html>
